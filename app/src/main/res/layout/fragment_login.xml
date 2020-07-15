@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/thirty_dp"
+        android:layout_marginEnd="@dimen/thirty_dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtPinCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fifteen_dp"
+                android:layout_marginBottom="@dimen/fifteen_dp"
+                android:backgroundTint="@color/tranparent_white"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:hint="@string/activity_login_enter_access_code"
+                android:inputType="textPassword"
+                android:paddingTop="@dimen/five_dp"
+                android:paddingBottom="@dimen/five_dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="@color/white"
+                android:textColorHint="@color/tranparent_white" />
+        </LinearLayout>
+
+
+        <pqh.vn.pliz.etoken.activity.ui.PinKeyView
+            android:id="@+id/pinCodeView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:edittext="@id/txtPinCode"
+            app:maxLenght="6"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

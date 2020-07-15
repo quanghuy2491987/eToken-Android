@@ -1,0 +1,10 @@
+<resources>
+    <declare-styleable name="PinKeyView">
+        <attr name="maxLenght" format="integer" />
+        <attr name="edittext" format="reference" />
+        <attr name="buttonTextColor" format="color" />
+        <attr name="buttonBackGround" format="reference" />
+        <attr name="deleteText" format="string" />
+
+    </declare-styleable>
+</resources>

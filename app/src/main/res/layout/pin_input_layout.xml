@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/thirty_dp">
+
+    <TextView
+        android:id="@+id/txtPinTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/thirty_dp"
+        android:paddingBottom="@dimen/ten_dp"
+        android:tag="Medium"
+        android:text="@string/activity_login_enter_access_code"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/twenty_dp" />
+
+    <LinearLayout
+        android:id="@+id/login_text_button_layout"
+        android:layout_width="@dimen/two_hundred_fifty_dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtPinCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="6"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/one_dp"
+            android:layout_below="@id/txtPinCode"
+            android:layout_alignParentBottom="true"
+            android:background="@color/blue"></View>
+    </LinearLayout>
+<pqh.vn.pliz.etoken.activity.ui.PinKeyView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>

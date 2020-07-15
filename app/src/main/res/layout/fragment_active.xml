@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ActiveFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/thirty_dp"
+        android:layout_marginEnd="@dimen/thirty_dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtActiveCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/thirty_dp"
+                android:layout_marginBottom="@dimen/fifteen_dp"
+                android:backgroundTint="@color/tranparent_white"
+                android:clickable="false"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="@string/active_input_text"
+                android:inputType="none"
+                android:paddingTop="@dimen/five_dp"
+                android:paddingBottom="@dimen/five_dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="@color/white"
+                android:textColorHint="@color/tranparent_white"/>
+
+            <TextView
+                android:id="@+id/txtActiveNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dont_have_active_code_text"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fifteen_dp"
+                android:background="@drawable/background_border_white"
+                android:paddingStart="@dimen/twenty_dp"
+                android:paddingEnd="@dimen/twenty_dp"
+                android:text="@string/active_text"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <pqh.vn.pliz.etoken.activity.ui.PinKeyView
+            android:id="@+id/pinCondeInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/five_dp"
+            app:buttonBackGround="@drawable/login_pad_circle"
+            app:buttonTextColor="@color/black"
+            app:edittext="@id/txtActiveCode" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global -->
+    <string name="app_name">VAB eToken</string>
+    <string name="app_scheme">vabetoken</string>
+
+    <!-- Login -->
+
+    <string name="activity_login">Login</string>
+    <string name="activity_login_save_user_num">Save</string>
+    <string name="activity_login_error">Error logging in, check your pin and try again.</string>
+    <string name="activity_login_no_pin">You must type in a Pin #</string>
+    <string name="activity_login_delete">Xóa</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+
+
+    <string name="userid_input_text">Tên đăng nhập</string>
+    <string name="active_input_text">Quý khách vui lòng nhập mã kích hoạt</string>
+    <string name="dont_have_active_code_text"><b>Lưu ý</b>: Nếu chưa có mã kích hoạt, Quý khách vui lòng liên hệ với VietABank</string>
+    <string name="active_text">Kích hoạt</string>
+    <string name="pin_input_note">Lưu ý: mật khẩu gồm 6 số.</string>
+    <string name="ok_text">Đồng ý</string>
+    <string name="close_text">Đóng</string>
+    <string name="alert_title">Thông báo</string>
+    <string name="otp_normal_title">Xác thực cơ bản</string>
+    <string name="otp_text">Mã OTP của quý khách là</string>
+    <string name="otp_countdown_title">Mã OTP sẽ tự động cập nhật trong vòng %d giây</string>
+    <string name="otp_signature_title">Xác thực nâng cao</string>
+    <string name="otp_title">Mã OTP</string>
+    <string name="transfer_code_title">Mã giao dịch</string>
+    <string name="transfer_code_input_title">Quý khách vui lòng nhập mã giao dịch</string>
+    <string name="create_pin_text">Quý khách vui lòng nhập mật khẩu mới</string>
+    <string name="create_pin_text_again">Quý khách vui lòng nhập lại mật khẩu</string>
+    <string name="create_pin_no_equal">Mật khẩu không giống nhau. Vui lòng nhập lại.</string>
+    <string name="create_pin_success_text">Tạo mã pin thành công</string>
+    <string name="input_old_pin">Quý khách vui lòng nhập mật khẩu hiện tại</string>
+    <string name="activity_login_enter_access_code">Quý khách vui lòng nhập mật khẩu</string>
+    <string name="change_pin_text">Đổi mã pin</string>
+    <string name="clear_token_text">Xóa token</string>
+    <string name="error_provision">%s</string>
+    <string name="active_success_text">Kích hoạt thành công</string>
+    <string name="accept_text">Xác nhận</string>
+    <string name="pin_not_correct">Mã pin không chính xác. Vui lòng kiểm tra lại</string>
+    <string name="pin_fail_multi">Quý khách đã nhập sai mật khẩu %s lần. Vì lý do bảo mật Quý khách vui lòng kích hoạt lại ứng dụng.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pin_exception">Mã pin phải có it nhất 6 chữ số. Mã pin không được là các chữ số liên tục (123456). Mã pin không được là các số lặp lại.</string>
+
+</resources>
